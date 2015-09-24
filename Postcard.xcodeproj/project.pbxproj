@@ -12,6 +12,8 @@
 		E28FB3B41BB3EA4C00B0999D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28FB3B21BB3EA4C00B0999D /* Main.storyboard */; };
 		E28FB3B61BB3EA4C00B0999D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28FB3B51BB3EA4C00B0999D /* Assets.xcassets */; };
 		E28FB3B91BB3EA4C00B0999D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28FB3B71BB3EA4C00B0999D /* LaunchScreen.storyboard */; };
+		E28FB3C21BB3EA9500B0999D /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E28FB3C01BB3EA9500B0999D /* AlbertEinsteinStamp.jpg */; settings = {ASSET_TAGS = (); }; };
+		E28FB3C31BB3EA9500B0999D /* Background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E28FB3C11BB3EA9500B0999D /* Background.jpeg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E28FB3B51BB3EA4C00B0999D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28FB3B81BB3EA4C00B0999D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E28FB3BA1BB3EA4C00B0999D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28FB3C01BB3EA9500B0999D /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
+		E28FB3C11BB3EA9500B0999D /* Background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E28FB3B51BB3EA4C00B0999D /* Assets.xcassets */,
 				E28FB3B71BB3EA4C00B0999D /* LaunchScreen.storyboard */,
 				E28FB3BA1BB3EA4C00B0999D /* Info.plist */,
+				E28FB3C01BB3EA9500B0999D /* AlbertEinsteinStamp.jpg */,
+				E28FB3C11BB3EA9500B0999D /* Background.jpeg */,
 			);
 			path = Postcard;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28FB3C31BB3EA9500B0999D /* Background.jpeg in Resources */,
+				E28FB3C21BB3EA9500B0999D /* AlbertEinsteinStamp.jpg in Resources */,
 				E28FB3B91BB3EA4C00B0999D /* LaunchScreen.storyboard in Resources */,
 				E28FB3B61BB3EA4C00B0999D /* Assets.xcassets in Resources */,
 				E28FB3B41BB3EA4C00B0999D /* Main.storyboard in Resources */,
