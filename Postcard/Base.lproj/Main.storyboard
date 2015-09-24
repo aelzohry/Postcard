@@ -103,6 +103,15 @@
                                     <action selector="sendMailButtonPressed:" destination="srh-rF-as9" eventType="touchUpInside" id="Xch-5h-Mdx"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAv-SK-hbG">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="152" width="172" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="buG-Yq-Cdh"/>
                                 <exclude reference="c1R-Bt-xCj"/>
                                 <exclude reference="HMi-EH-meG"/>
+                                <exclude reference="hAv-SK-hbG"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="buG-Yq-Cdh"/>
                                 <include reference="c1R-Bt-xCj"/>
                                 <include reference="HMi-EH-meG"/>
+                                <include reference="hAv-SK-hbG"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextField" destination="c1R-Bt-xCj" id="KtC-wm-yhD"/>
                         <outlet property="enterNameTextField" destination="buG-Yq-Cdh" id="glm-bm-J2B"/>
                         <outlet property="messageLabel" destination="U3B-fs-hpZ" id="AeK-dg-8Ff"/>
+                        <outlet property="nameLabel" destination="hAv-SK-hbG" id="eff-Qz-pEB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79g-bW-aoD" userLabel="First Responder" sceneMemberID="firstResponder"/>
